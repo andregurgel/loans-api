@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "9d168313-222f-44ab-88aa-7d44389928a6",
+		"name": "Loans",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11581103"
+	},
+	"item": [
+		{
+			"name": "Customer Loans",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"age\": 26,\n  \"cpf\": \"275.484.389-23\",\n  \"name\": \"Vuxaywua Zukiagou\",\n  \"income\": 5000.00,\n  \"location\": \"SP\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/customer-loans",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"customer-loans"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
